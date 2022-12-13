@@ -1,0 +1,46 @@
+/*
+Colors
+
+Neutral
+--very_dark_blue_main_BG:#0b162d;
+--very_dark_blue_card_BG:#14243c;
+--very_dark_blue_line:#2f415b;
+--white:#ffffff;
+
+Primary
+--Soft_blue:#8cacda;
+--Cyan:#01fff7;
+*/
+
+:root{
+    //Neutral
+    --very_dark_blue_main_BG:#0b162d;
+    --very_dark_blue_card_BG:#14243c;
+    --very_dark_blue_line:#2f415b;
+    --white:#ffffff;
+    --shadow-dark:#000000;
+
+    //Primary
+    --Soft_blue:#8cacda;
+    --Cyan:#01fff7;
+
+    --line:1px solid #2f415b;
+    --line-white:1px solid #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 90%;
+}
+
+body{
+    background-color: var(--very_dark_blue_card_BG);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    line-height: 2rem;
+}
